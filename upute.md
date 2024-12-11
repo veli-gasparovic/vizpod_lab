@@ -59,7 +59,7 @@ d3.select("#viz1") // Selektiraj SVG element
 
 ---
 
-## **3. Postavljanje osovina (`axisBottom`, `axisLeft`)**
+## **3. Postavljanje osi (`axisBottom`, `axisLeft`)**
 
 **Što radi?**  
 Dodaje osi (X i Y) za vizualizaciju podataka.
