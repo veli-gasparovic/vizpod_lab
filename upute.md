@@ -16,7 +16,7 @@ Skale transformiraju vrijednosti podataka u pozicije (X, Y), veličine (font siz
 const xScale = d3
   .scaleLinear()
   .domain([0, 100]) // Vrijednosti u podacima
-  .range([0, 500]); // Veličina osovine u pikselima (0 do 500px)
+  .range([0, 500]); // Veličina osi u pikselima (0 do 500px)
 
 // Skala za Y-os (npr. za "score", raspon od 0 do 100)
 const yScale = d3.scaleLinear().domain([0, 100]).range([400, 0]); // Y-os ide odozdo prema gore (veće vrijednosti gore)
